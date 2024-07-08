@@ -1,0 +1,6 @@
+curl -LO https://storage.googleapis.com/minikube/releases/v1.18.1/minikube-linux-arm
+file minikube-linux-arm
+chmod +x minikube-linux-arm
+sudo mv minikube-linux-arm /usr/local/bin/minikube
+
+minikube version
